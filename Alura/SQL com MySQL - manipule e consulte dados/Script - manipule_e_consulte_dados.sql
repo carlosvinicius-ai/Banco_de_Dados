@@ -70,6 +70,18 @@ values (
     0.10
 );
 
+insert into tb_vendedores(
+	MATRICULA, NOME, PERCENTUAL_COMISSAO
+) values (
+	'00235','Márcio Almeida Silva',0.08
+);
+
+insert into tb_vendedores(
+	MATRICULA, NOME, PERCENTUAL_COMISSAO
+) values (
+	'00236', 'Cláudia Morais', 0.08
+);
+
 insert into tb_produto (
 ID_PRODUTO,  NOME, EMBALAGEM, TAMANHO, SABOR,
 PRECO_LISTA) values (
