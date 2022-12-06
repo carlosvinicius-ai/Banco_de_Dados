@@ -40,3 +40,36 @@ create table TABELA_DE_VENDEDORES2 (
 
 drop table TABELA_DE_VENDEDORES2;
 
+-- inserindo dados em uma tabela
+
+insert into tb_produto (
+	ID_PRODUTO,
+    NOME,
+    EMBALAGEM,
+    TAMANHO,
+    SABOR,
+    PRECO_LISTA
+) 
+values (
+	'1040107', 
+    'Light - 350 ml - Melância',
+	'Lata',
+    '350 ml',
+    'Melância',
+    4.56
+);
+
+insert into tb_vendedores (
+	MATRICULA,
+    NOME,
+    PERCENTUAL_COMISSAO
+) 
+values (
+	'00233',
+    'João Geraldo da Fonseca',
+    0.10
+);
+
+-- Para visualizar os dados que foram adicionados
+
+select * from tb_produto;
