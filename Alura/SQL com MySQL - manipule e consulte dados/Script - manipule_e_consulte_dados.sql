@@ -102,3 +102,8 @@ PRECO_LISTA) values (
 
 select * from tb_produto;
 
+insert into tb_vendedores(
+MATRICULA, NOME, PERCENTUAL_COMISSAO
+) values (
+'00235', 'Márcio Almeida Silva', 0.08
+)
